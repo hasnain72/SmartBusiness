@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "449324323249",
+    "firebase_url": "https://sbusiness-a868c.firebaseio.com",
+    "project_id": "sbusiness-a868c",
+    "storage_bucket": "sbusiness-a868c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449324323249:android:9215f6c8bf17845c",
+        "android_client_info": {
+          "package_name": "com.example.zafar.sbusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449324323249-tvc2tvdmpavipqfbnd9ucumqmlgmm91i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSsYYbOJ46EYrq6w-_1PObDTiAtOMr_L4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

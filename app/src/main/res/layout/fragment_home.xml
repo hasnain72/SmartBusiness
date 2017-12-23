@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zafar.sbusiness.fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f4f6f8">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="#1C2260"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BAHS_FIRST_LL">
+
+                <TextView
+                    android:text="Welcome to SBusiness,"
+                    android:paddingTop="30dp"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:text="John."
+                    android:textColor="#ffffff"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/BAHS_NAME" />
+
+                <TextView
+                    android:text="Here are some tips to help you get started."
+                    android:textColor="#ffffff"
+                    android:textSize="30dp"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_below="@id/BAHS_FIRST_LL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_marginTop="20dp"
+                android:background="#ffffff"
+                android:id="@+id/BAHS_SECOND_LL">
+
+                <TextView
+                    android:text="Add a product to start selling"
+                    android:textColor="#212b35"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/textView5" />
+
+                <TextView
+                    android:text="Take the first step to launching your store. Add physical items to your store, which shows up on map with your store brand name and rating"
+                    android:textColor="#212b35"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/textView6" />
+
+                <Button
+                    android:text="ADD PRODUCT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5c6ac4"
+                    android:id="@+id/BAHS_ADD_PRODUCT"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_marginTop="20dp"
+                android:background="#ffffff"
+                android:layout_below="@id/BAHS_SECOND_LL"
+                android:id="@+id/BAHS_THIRD_LL">
+
+                <TextView
+                    android:text="Create a Store to start selling."
+                    android:textColor="#212b35"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/textView7" />
+
+                <TextView
+                    android:text="Create a new store by entering name of store. Selecting category for your store and setting up your store location on Google Maps."
+                    android:textColor="#212b35"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/textView8" />
+
+                <Button
+                    android:text="ADD STORE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5c6ac4"
+                    android:id="@+id/BAHS_ADD_STORE"
+                    android:background="@android:color/transparent" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

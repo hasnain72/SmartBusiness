@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zafar.sbusiness.fragments.Store">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4F6F8">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:id="@+id/list_store"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_store"
+            android:id="@+id/about"
+            android:background="#ffffff"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:text="About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#191919"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/about_text" />
+
+            <TextView
+                android:text="Version 6.5.0(14696)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#191919"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/version_text" />
+
+            <TextView
+                android:text="Licenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#191919"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:id="@+id/license_text" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

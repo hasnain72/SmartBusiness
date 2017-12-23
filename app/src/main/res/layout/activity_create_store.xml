@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_store"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zafar.sbusiness.activity.CreateStore">
+
+    <TextView
+        android:text="Title for Store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#323232"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtView_1" />
+
+    <EditText
+        android:id="@+id/add_store_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtView_1"
+        android:layout_weight="1"
+        android:background="@drawable/border_add_product"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:text="Select Category "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/add_store_title"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#323232"
+        android:id="@+id/txtView_2" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtView_2"
+        android:layout_marginTop="10dp"
+        android:entries="@array/country_arrays"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:spinnerMode="dialog"
+        android:prompt="@string/spinnerPrompt"
+        android:background="@drawable/border_add_product"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/spinner_add_store" />
+
+    <TextView
+        android:id="@+id/txtView_3"
+        android:text="Select Position "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_add_store"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#323232" />
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtView_3"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:text="Open Map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtView_3"
+            android:layout_gravity="center"
+            android:id="@+id/mapBtn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:id="@+id/latlng_txtView" />
+
+        <Button
+            android:text="Create Store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:textColor="#ffffff"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_and_color_button"
+            android:id="@+id/create_store_btn" />
+    </LinearLayout>
+
+</RelativeLayout>

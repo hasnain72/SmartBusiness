@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zafar.sbusiness.fragments.WalletFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/cash_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/WF_BALANCE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cash_box"
+                android:background="#F0EFEF"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:text="Total Available balance"
+                android:textColor="#191919"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/WF_AMOUNT_IN_WALLET"
+                android:layout_width="match_parent"
+                android:paddingTop="90dp"
+                android:paddingBottom="90dp"
+                android:text="Rs.200/-"
+                android:textAlignment="center"
+                android:textColor="#57A66D"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/WF_CAHSOUT_BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_wallet"
+                android:text="Cash Out"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
